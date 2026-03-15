@@ -38,11 +38,11 @@ GitHub	Project documentation and version control
 
 📈 Project Workflow
 
-1️ Data Loading
+1️.  Data Loading
 The HR dataset was imported into Excel and SQL for analysis.
 
 
-2️ Data Cleaning (Excel)
+2️.  Data Cleaning (Excel)
 
 Performed essential preprocessing steps:
 •	Removed duplicate records
@@ -55,7 +55,7 @@ o	Attrition Flags
 This step ensured the dataset was accurate and analysis-ready.
 
 
-3️ Exploratory Data Analysis (EDA)
+3️.  Exploratory Data Analysis (EDA)
 
 Using Excel Pivot Tables, multiple analyses were performed:
 •	Attrition by Department
@@ -69,7 +69,7 @@ Using Excel Pivot Tables, multiple analyses were performed:
 These analyses helped uncover initial patterns and trends in the dataset.
 
 
-4️ SQL Business Analysis
+4️.  SQL Business Analysis
 
 SQL queries were written to answer real HR business questions, such as:
 •	Which departments have the highest attrition rates?
@@ -108,20 +108,30 @@ The analysis revealed several critical findings:
 HR-Attrition-Analysis
 │
 ├── Dataset
-│   └── HR_Analytics.csv
+
+    └── HR_Analytics.csv
 │
+
 ├── Excel Analysis
-│   └── EDA_Pivot_Tables.xlsx
+|
+    └── EDA_Pivot_Tables.xlsx
 │
+
 ├── SQL
-│   └── HR_Attrition_Analysis.sql
-│
+│   
+     └── HR_Attrition_Analysis.sql
+|
+
 ├── Report
-│   └── HR_Attrition_Report.docx
+│   
+     └── HR_Attrition_Report.docx
 │
+
 ├── Presentation
-│   └── HR_Attrition_Presentation.pptx
+│  
+     └── HR_Attrition_Presentation.pptx
 │
+
 └── README.md
 
 
